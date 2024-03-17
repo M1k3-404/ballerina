@@ -11,15 +11,15 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 198, 128, 126;
+    --background-end-rgb: 218, 217, 217;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: radial-gradient(
+      circle at 20% 50%,
       transparent,
       rgb(var(--background-end-rgb))
     )
@@ -30,4 +30,20 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-cstm-platinum {
+  background-color: #dad9d9;
+}
+
+.bg-cstm-rose-taupe {
+  background-color: #996d6c;
+}
+
+.text-cstm-rose-taupe {
+  color: #996d6c;
+}
+
+.border-cstm-rose-taupe {
+  border-color: #996d6c;
 }
