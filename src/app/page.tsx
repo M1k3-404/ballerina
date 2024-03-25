@@ -17,9 +17,9 @@ export default function Home() {
               <Image
                 src={Ballerina}
                 alt="Ballerina"
-                width={500}
+                width={350}
                 objectFit="contain"
-                className="mr-80"
+                className="mr-80 mb-28"
               />
             </div>
           </div>
